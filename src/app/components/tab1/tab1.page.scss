@@ -1,0 +1,30 @@
+ion-content {
+    --background: transparent;
+    position: relative;
+  }
+  
+  app-swiper-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 150%;
+    z-index: -1; /* Asegura que los slides estén en el fondo */
+  }
+  
+  .welcome-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00ff00; /* Verde neón */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 4px 4px 10px #00ff00, -4px -4px 10px #008000; /* Efecto de resplandor */
+    background: rgba(0, 0, 0, 0); /* Fondo transparente */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Luckiest Guy', cursive; /* Fuente similar (de Google Fonts) */
+  }
+  

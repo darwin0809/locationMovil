@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Cámara Page
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button expand="full" (click)="takePhoto()">
+    Activar Cámara
+  </ion-button>
+
+  <ion-list>
+    @for (photo of photos; track photo) {
+      <ion-item>
+        <ion-img [src]="photo"></ion-img>
+      </ion-item>
+    }
+  </ion-list>
+</ion-content>

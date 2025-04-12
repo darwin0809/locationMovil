@@ -1,0 +1,90 @@
+/* Estilo para la tarjeta del episodio */
+ion-card {
+    background: rgba(0, 0, 0, 0.85); /* Fondo oscuro */
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 15px #00ff00; /* Resplandor verde */
+    color: white;
+  }
+  
+  /* Imagen del episodio */
+  ion-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #00ff00; /* Borde verde neón */
+  }
+  
+  /* Encabezado del episodio */
+  ion-card-header {
+    text-align: center;
+  }
+  
+  ion-card-title {
+    color: #00ff00; /* Verde neón */
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px #00ff00, -3px -3px 8px #008000;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  ion-card-subtitle {
+    color: #00ff00;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #00ff00;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  /* Estilo para la fecha */
+  ion-item {
+    --background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  ion-icon {
+    color: #00ff00;
+  }
+  
+  /* Botones de vista */
+  ion-toolbar {
+    background: transparent;
+    border-top: 2px solid #00ff00;
+  }
+  
+  ion-buttons ion-button {
+    --background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px #00ff00;
+    border-radius: 10px;
+  }
+  
+  ion-buttons ion-button[color="primary"] {
+    border: 2px solid #00ff00;
+  }
+  
+  ion-buttons ion-button[color="tertiary"] {
+    border: 2px solid #008000;
+  }
+  
+  ion-buttons ion-button[color="danger"] {
+    border: 2px solid #ff0000;
+  }
+  
+  ion-buttons ion-label {
+    color: #00ff00;
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  /* Contenido de la tarjeta */
+  ion-card-content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
