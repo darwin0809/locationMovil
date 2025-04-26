@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>Ubicación Actual</ion-title>
+    <ion-button slot="end" (click)="switchMap()">
+      Cambiar a {{ currentMapType === 'leaflet' ? 'Mapbox' : 'Leaflet' }}
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
